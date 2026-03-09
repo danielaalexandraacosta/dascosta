@@ -1,3 +1,4 @@
-//main.js
+//main.js actualizado
 const numero = parseInt(prompt("Ingrese un numero:"));
-for (let i = 1; i <= 10; i++) {console.log(numero + " x " + i + " = " + (numero * i));}
+function imprimirTabla(n) {for (let i = 1; i <= 10; i++) {console.log(`${n} x ${i} = ${n * i}`);}}
+imprimirTabla (numero);
